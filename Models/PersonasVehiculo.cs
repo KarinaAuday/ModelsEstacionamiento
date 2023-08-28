@@ -12,7 +12,7 @@ namespace ClasesEstacionamiento.Models
         public Persona Persona { get; set; }
 
 
-
+        public bool Activo { get; set; }
 
 
 
