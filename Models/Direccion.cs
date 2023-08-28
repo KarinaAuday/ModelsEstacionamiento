@@ -11,6 +11,8 @@ namespace ClasesEstacionamiento
 
         public int CodPostal { get; set; }
 
+        public Persona Persona { get; set; }
+
         [Required]
         public int PersonaId { get; set; }
 
