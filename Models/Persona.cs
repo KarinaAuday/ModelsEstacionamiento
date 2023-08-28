@@ -38,7 +38,8 @@ namespace ClasesEstacionamiento
 
         public string Nombre { get; set; }
 
-        [DataType(DataType.EmailAddress)]
+        //[DataType(DataType.EmailAddress)]
+        [EmailAddress (ErrorMessage= "Email invalido")]
         public string Email { get; set; }
 
 
